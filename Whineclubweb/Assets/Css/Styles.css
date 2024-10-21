@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.absolutefooter {
+  height: 5px; 
+}
+.footer-95942 {
+    padding: 3rem 0;
+}
+
+.footer-95942 .footer-logo{
+  width: 150px;
+}
+
+.footer-95942 .row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-95942 .nav-links li a {
+    font-size: 18px;
+    color: #000; 
+    text-decoration: none; 
+
+}
+.footer-95942 .nav-links li a:hover {
+  color: #830E0D; 
+}
+
+.footer-95942 .social.app,
+.footer-95942 .social li a:hover {
+  color: #830E0D;
+  transition: ease-in-out;
+}
+.footer-95942 .social li {
+    display: inline-block; 
+}
+.footer-95942 .social li a {
+    display: inline-block;
+    padding: 10px;
+    color: #000; 
+    text-decoration: none;
+}
+
+.footer-95942 h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px; 
+    color: #830E0D;
+}
+
+
+/* navbar css  */
+
+
+.navbar {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  right: 10px; 
+  background-color: #fff !important; 
+  width: calc(100% - 20px);
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+  border-radius: 35px;
+}
+
+.btn.btn-outline-primary{
+  background-color: transparent;
+  border-color: #830E0D;
+  color: #830E0D;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  border-radius: 25px;
+  border: 2px solid;
+  padding: 8px 16px;
+}
+.btn.btn-outline-primary:hover {
+  background-color: transparent;
+  border-color: #F7E7CF;
+  color: #F7E7CF;
+}
+.cart {
+  color:#830E0D;
+  transition: all 0.3s ease-in-out;
+
+}
+.cart:hover{
+  color: #F7E7CF;
+}
+.navbar-nav .nav-item .linkbtn {
+  color:#830E0D;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  border: transparent;
+  background-color: transparent;
+}
+
+.linkbtn .nav-link:hover {
+  border: 1px solid;
+  color: #830E0D; 
+  border-radius: 25px;
+  padding: 8px 16px;
+}
+
+.linkbtn .nav-link:active,
+.linkbtn .nav-link.active {
+  border: 1px solid #830E0D;
+  color: #830E0D;
+  border-radius: 25px;
+}
+/* end navbar css */
+
+
+/* hero css */
+
+.hero-2-txt {
+    text-align: center;
+}
+
+.hero-section::before {
+    content: 'Wine';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 300px;
+    color: rgba(0, 0, 0, 0.1);
+    z-index:0 ;
+    white-space: nowrap;
+}
+
+.hero-section{
+  height: 650px;
+}
+
+.hero-section .container{
+  position: relative;
+  z-index: 1;
+  padding-top: 50px;
+}
+
+.imagehero {
+  /* max-width: 100%;  */
+  height: 600px;
+  width: 450px;
+  padding-bottom: 80px; 
+}
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Theme Button */
+.btn--theme {
+    background-color: #830E0D;
+    color: white;
+    border: 2px solid transparent;
+}
+
+.btn--theme:hover {
+    background-color: #830E0D;
+    border-color: #830E0D;
+    color: white;
+}
+
+/* Transparent Black Button */
+.btn--tra-black {
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+.btn--tra-black:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #F7E7CF;
+    border-color: #F7E7CF;
+}
+
+.r-04 {
+    border-radius: 25px;
+}
+
+.hover--orange-100:hover {
+    color: #F7E7CF;
+    border-color: #830E0D;
+    background-color: #830E0D;
+}
+
+.hover--black:hover {
+    color: black;
+    border-color: black;
+    background-color: transparent;
+}
+
+
+/* about us section css  */
+.about{
+  padding: 20px;
+  color: #830E0D;
+  background-color: #F7E7CF;
+  margin: 0 auto;
+  height: 300px;
+}
+.content {
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 20px;
+  text-align: center;
+
+}
+.heading {
+  position: relative;
+  display: block;
+  font-size: 2rem; 
+  text-align: center !important;
+  padding-bottom: 30px;
+}
+
+.heading::before {
+  content: '';
+  position: absolute;
+  width: 5%;
+  height: 2px;
+  background-color: #830E0D; 
+  bottom: 0;
+  left: 48%;
+  transition: width 0.3s ease;
+}
+
+.heading:hover::before {
+  width: 20%;
+  left: 40%;
+}
+/* end of about us section css */
+
+
+
+
+
+/* how it works section css */
+.howitworks{
+  padding: 50px;
+}
+.list-unstyled {
+  text-align: left;
+}
+
+.me-2 {
+  color: #830E0D;
+}
+.gallery {
+    position: relative;
+    width: 400px; 
+    height: 600px; 
+    margin: auto;
+}
+  
+  .gallery:after{
+    content:'';
+  }
+  
+  
+.clipped-border img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+  
+.clipped-border{
+-webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+    clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+    padding:5px;
+    background:linear-gradient(grey,lightgrey);
+    max-height:250px;
+    max-width:200px;
+    height: 250px;
+    width: 200px;
+    transition:transform 0.2s;
+    position:absolute;
+    cursor:pointer;
+}
+
+
+.clipped-border:before{
+content:'';
+position:absolute;
+opacity:0.5;
+width:200px;
+height:70px;
+background:white;
+top:0;
+left:0;
+z-index:1;
+transform:rotate(45deg);
+transition:transform 0.5s;
+}
+
+.clipped-border:hover:before{
+transform: translate(-100px,400%) rotate(45deg);
+transition:transform 0.5s;
+}
+
+/* Positioning hexagons */
+.clipped-border:nth-child(1) {
+    top: 0;
+    left: 180px; 
+}
+
+.clipped-border:nth-child(2) {
+    top: 180px;
+    left: 90px;
+}
+
+.clipped-border:nth-child(3) {
+    top: 180px;
+    left: 270px;
+}
+
+.clipped-border:nth-child(4) {
+    top: 360px;
+    left: 0;
+}
+
+.clipped-border:nth-child(5) {
+    top: 360px;
+    left: 180px;
+}
+
+.clipped-border:nth-child(6) {
+    top: 360px;
+    left: 360px;
+}
+
+#clipped {
+-webkit-clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+
+}
+
+.clipped-border:hover{
+transform:scale(1.2);
+transition:transform 0.2s;
+z-index:10;
+}
+
+
+@media screen and (max-width:500px){
+.clipped-border{
+    width:100px;
+    height:100px;
+}
+
+.clipped-border:nth-child(2){
+    top:0;
+    left:100px;
+}
+
+.clipped-border:nth-child(3){
+    left:200px;
+}
+
+.clipped-border:nth-child(4){
+    top:82px;
+    left:50px;
+}
+
+.clipped-border:nth-child(5){
+    top:82px;
+    left:150px;
+}
+}
+
+/*    end of how it works css    */
+
+
+
+
+/*  memebership plan css    */
+
+.container {
+  max-width: 100%;
+  padding: 12px 6px;
+  margin: 0 auto;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px; 
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: left;
+  width: 100%;
+  max-width: 320px; /* Adjust as needed */
+  margin: 16px 0;
+}
+
+.card-header {
+  background-color: #f8f8f8;
+  padding: 16px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.card-footer {
+  padding: 16px;
+  text-align: center;
+}
+
+.card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.card ul li i {
+  color: #830E0D; 
+  margin-right: 8px;
+}
+
+.card-button {
+  background-color: #000;
+  color: #fff;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.card-button:hover {
+  background-color: #333;
+}
+.card.elevated {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  transform: translateY(-16px);
+  z-index: 10; /* Ensure it appears above other cards */
+}
+
+
+/*    end of memebership plan css    */
+
+
+
+
+
+
+/* wine store  */
+
+.wine-store .container .card .card-img-top {
+  width: 100%;
+  object-fit: cover;
+  height: 400px;
+}
+.wine-store .container .card {
+  height: 520px;
+}
